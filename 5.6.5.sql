@@ -1,0 +1,4 @@
+SELECT *
+FROM 6tbatudata
+GROUP BY CellID
+HAVING AVG(RSRP) > -70

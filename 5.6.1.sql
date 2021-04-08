@@ -1,0 +1,3 @@
+SELECT SECTOR_ID,CELL_TYPE,PCI
+FROM 4tboptcell NATURAL JOIN 5tbpciassignment
+WHERE CELL_TYPE= '优化区'

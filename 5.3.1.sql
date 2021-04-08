@@ -1,0 +1,9 @@
+(SELECT *
+FROM 1tbcell
+WHERE CITY='yiyang' AND EARFCN =38544
+)
+UNION
+(SELECT *
+FROM 1tbcell
+WHERE CITY='sanxia' AND EARFCN =38400
+)

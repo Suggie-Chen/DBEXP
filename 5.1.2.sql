@@ -1,0 +1,3 @@
+SELECT NCELL_ID,NSECTOR_ID
+FROM 7tbatuc2i,8tbatuhandover
+WHERE COSITE = 1 AND 7tbatuc2i.SECTOR_ID = "238397-1" AND 8tbatuhandover.SECTOR_ID = "238397-1"
